@@ -22,3 +22,8 @@ use Mix.Config
 config :bootloader,
   init: [:nerves_runtime],
   app: :multiplayer_buttons
+
+config :nerves_network,
+  regulatory_domain: "GB"
+
+

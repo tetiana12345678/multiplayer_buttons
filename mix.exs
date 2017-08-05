@@ -61,7 +61,8 @@ defmodule MultiplayerButtons.Mixfile do
     [ system(target),
       {:bootloader, "~> 0.1"},
       {:nerves_runtime, "~> 0.4"},
-      {:gen_mqtt, "~> 0.3.1"}
+      {:gen_mqtt, "~> 0.3.1"},
+      {:nerves_network, "0.3.1"}
     ]
   end
 
